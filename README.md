@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :pavithra D
+Register no: 212223230146
+
 
 
 
@@ -78,27 +78,56 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
+mov AL,87h
+mov BL,89h
+ADD AL,BL
+HLT
+```
 
 
 ## Output  
+![addition pm](https://github.com/PavithraD23004871/EXPERIMENT--01-ALP-FOR-8086/assets/138955967/f6c08fb7-88d8-4865-a045-20fe200533b1)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+mov AL,33h
+mov BL,89h
+sub AL,BL
+HLT
+``
  
-## Output  
-## Multiplication alp 
- ## Output  
+## Output
+![subtract pm](https://github.com/PavithraD23004871/EXPERIMENT--01-ALP-FOR-8086/assets/138955967/22747335-c9c2-4225-a742-300980e55296)
+
+
+## Multiplication alp
+```
+mov AL,29h
+mov BL,89h
+mul AL
+HLT
+```
+ ## Output
+![muiti pm](https://github.com/PavithraD23004871/EXPERIMENT--01-ALP-FOR-8086/assets/138955967/1eb34d88-7ffb-41b1-9bff-40e35b25150b)
+
 
 
 ## Division alp 
+```
+mov AL,29h
+mov BL,89h
+DIV AL
+HLT
+```
+## Output
+![div pm](https://github.com/PavithraD23004871/EXPERIMENT--01-ALP-FOR-8086/assets/138955967/2c97badd-b321-40f0-a074-1d281ae43680)
 
-## Output  
 
 
 ## Result :
- 
-
-
+ Thus, A program is Develop To write And Execute ALP On Fundamental Arithmetic And Logical Operations
 
 
 
